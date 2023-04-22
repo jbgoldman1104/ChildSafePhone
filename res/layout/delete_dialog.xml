@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/root" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/star2background">
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:id="@+id/linearLayout1" 
+		android:orientation="vertical"
+		android:layout_height="fill_parent"
+		android:layout_marginRight="40px" 
+		android:layout_marginLeft="40px" >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:id="@+id/TextView_PwdSet"
+			android:text="@string/ConfirmDelete" 
+			android:textSize="@dimen/password_dimen"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:gravity="top|center" 
+			android:textColor="@color/black">
+		</TextView>
+	</LinearLayout>
+</LinearLayout>

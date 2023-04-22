@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/main"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent" 
+	android:background="@drawable/star2background">
+	<LinearLayout 
+		android:id="@+id/linearLayout_editAContact" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:orientation="vertical" 
+		android:layout_marginRight="15px" 
+		android:layout_marginLeft="15px" 
+		android:layout_marginBottom="25px">
+	<TextView 
+		android:id="@+id/TextViewContactsTitle"
+		android:text="@string/edit_a_contact_title" 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:layout_gravity="center_vertical|center_horizontal"
+		android:gravity="top|center" 
+		android:textSize="@dimen/title_size"
+		android:textColor="@color/title_color" 
+		android:layout_marginLeft="30px"
+		android:layout_marginRight="30px" />   
+	<TextView 
+		android:id="@+id/textViewName" 
+		android:text="@string/edit_a_contact_name"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginRight="32px" 
+		android:layout_marginLeft="32px"  />
+	<EditText 
+		android:id="@+id/editTextName" 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:text="" 
+		android:layout_marginRight="30px" 
+		android:layout_marginLeft="30px" 
+		android:maxLines="1"
+		android:maxLength="30" />
+	<TextView 
+		android:id="@+id/textViewPhone"
+		android:text="@string/edit_a_contact_phone" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginRight="32px" 
+		android:layout_marginLeft="32px" /> 
+	<EditText 
+		android:id="@+id/editTextPhone" 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:text="" 
+		android:layout_marginRight="30px" 
+		android:layout_marginLeft="30px" 
+		android:maxLength="20"
+		android:maxLines="1"/> 
+	<TextView 
+		android:text="@string/edit_a_contact_icon" 
+		android:id="@+id/textViewIcon"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginRight="32px" 
+		android:layout_marginLeft="32px" />
+	<RelativeLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginRight="30px" 
+		android:layout_marginLeft="30px" 
+		android:id="@+id/relativeLayout_editAContact1"
+		android:orientation="horizontal" >
+		<ImageView android:id="@+id/imageViewIcon" 
+			android:layout_width="wrap_content"
+			android:src="@drawable/icon00" 
+			android:layout_height="wrap_content" 
+			android:layout_alignParentLeft="true" 
+			android:layout_centerVertical="true"/>
+		<Button android:text="@string/edit_a_contact_browse" 
+			android:id="@+id/buttonBrowse"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_centerVertical="true" 
+			android:layout_centerHorizontal="true"/>
+	</RelativeLayout>
+	
+	<RelativeLayout 
+		android:id="@+id/relativeLayout_editAContact2"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" 
+		android:layout_marginRight="30px" 
+		android:layout_marginLeft="30px" 
+		android:layout_marginBottom="13px">
+		<Button 
+			android:text="@string/edit_a_contact_enter" 
+			android:id="@+id/button_edit_a_contact_enter"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_alignParentLeft="true" 
+			android:layout_alignParentBottom="true"/>
+		<Button 
+			android:text="@string/edit_a_contact_cancel" 
+			android:id="@+id/button_edit_a_contact_cancel"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_alignParentRight="true" 
+			android:layout_alignParentBottom="true"/>
+	</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

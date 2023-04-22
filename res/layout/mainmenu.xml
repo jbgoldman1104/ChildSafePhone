@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:background="@drawable/star2background"
+	android:layout_height="wrap_content" android:layout_width="fill_parent">
+	<TextView android:id="@+id/MainMenuScreen"
+		android:layout_height="wrap_content" android:text="@string/MainMenuScreenTitle"
+		android:textColor="@color/title_color" android:layout_width="fill_parent"
+		android:layout_gravity="center_vertical|center_horizontal"
+		android:gravity="top|center" android:textSize="@dimen/title_size" />
+	<RelativeLayout android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1" android:layout_width="wrap_content">
+
+		<ImageView android:id="@+id/child" android:src="@drawable/child"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_gravity="top" android:layout_centerHorizontal="true"></ImageView>
+		<ImageView android:id="@+id/parent" android:src="@drawable/adult"
+			android:layout_gravity="fill_horizontal|center"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ImageView>
+	</RelativeLayout>
+
+
+
+</LinearLayout>

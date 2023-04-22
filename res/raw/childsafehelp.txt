@@ -1,0 +1,30 @@
+Child Safe Phone
+
+1.) About:
+The Child Safe Phone is an application that allows a child to use the cellphone in the most safest way possible.  The interface is designed to be user friendly for the child to use .  The application is created for the child to be able to communicate with any contacts that the parent had specifically setted in the parent settings.  The child cannot access the parent screen as a password is required to be able to change any of the contact lists.
+
+2.) Adding a Contact:
+To be able to add a contact, the contact box must be empty before the user can add a contact.  When prompt, the user must add the contact name, the phone number and an icon.  Once the information is provided, the parent must choose ok in  order to fully complete the addition of a contact.  The maximum number of contacts is only 5 to prevent the child from excessive phone use.
+
+3.) Delete a Contact:
+If there is a certain contact information that the parent wants to delete, this is the button that is required to do this.  This completely erases the contact information that has been added in the contact list allowing the parent add or clean the child's contact list.  When prompt, there will be a confirmation dialog that will notify the parent of a deleting contact.
+
+4.) Edit a Contact:
+This allows the parent to edit anything that was accidentally created in the contact list.  Change phone number? Change name? Change icon?  This is the button that will do that for you.  It will only prompt if there is a contact information in the contact list.
+
+5.) View Contact List:
+This allows the parent to see what the child screen would look like to double check the contact list.
+
+6.) Change Password:
+If the password is not set, anyone can access the parent screen.  Once the password has been set only the users that know the password may be allowed to access the parent screen.  If the parent wants to change the password, this is the button.
+
+7.) Easy Navigation: If you want to go back to the main parent screen, all you have to do is choose the house looking button on the Android to open up the pop-up menu. There are two options: the main menu where the child and the parent can choose to go, and the parent main menu where are the settings are. That way, if you are stuck, you can get out easily.
+
+SUPPORT INFORMATION
+
+For more issues/fixes/answers:
+http://www.thecoagroupteam.com/index
+
+Icons provided by http://www.everaldo.com/crystal/
+
+Copyright 2011.

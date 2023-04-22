@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/star2background">
+   <TextView 
+    	android:id="@+id/textview_help_title" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/help_title"
+    	android:textColor="@color/title_color"
+    	android:layout_width="fill_parent"
+    	android:layout_gravity="center_vertical|center_horizontal"  
+    	android:gravity="top|center"
+    	android:textSize="@dimen/title_size">		
+    </TextView>
+    
+    <ScrollView
+   		android:id="@+id/ScrollView_Help" 
+		android:layout_alignParentBottom="true" 
+		android:layout_height="fill_parent" 
+		android:layout_width="fill_parent"
+		android:isScrollContainer = "true" android:padding="20px" android:layout_marginLeft="30px" android:layout_marginRight="30px" android:layout_marginBottom="30px">
+    	<TextView 
+    		android:id="@+id/TextView_HelpText" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="fill_parent">
+    	</TextView>
+    </ScrollView>
+  
+</LinearLayout>

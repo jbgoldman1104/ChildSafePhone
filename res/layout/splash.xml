@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:background="@drawable/star2background" android:orientation="vertical">
+  	<TextView 
+  		android:layout_width="fill_parent" 
+    	android:id="@+id/TextView_title" 
+        android:text="@string/splash_title" 
+		android:layout_height="wrap_content" 
+		android:textStyle="bold" 
+		android:gravity="top|center" 
+		android:layout_gravity="center_vertical|center_horizontal" 
+		android:textSize="@dimen/splash_title" 
+		android:textColor="@color/title_color" 
+		style="@anim/fade_in" />
+		
+	<TableLayout android:id="@+id/TableLayout01" 
+		android:stretchColumns="*" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent">
+			<TableRow android:id="@+id/TableRow01" 
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content" >
+  				<ImageView android:id="@+id/ImageView2_Left" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:src="@drawable/splash1" 
+					style="@anim/fade_in" /> 
+				<ImageView 
+					android:layout_height="wrap_content" 
+					android:id="@+id/ImageView2_Right" 
+					android:layout_width="wrap_content" 
+					android:src="@drawable/splash2" 
+					style="@anim/fade_in" />
+			</TableRow>
+			<TableRow android:id="@+id/TableRow02" 
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content" >
+				<ImageView android:id="@+id/ImageView3_Left" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:src="@drawable/splash3"
+					style="@anim/fade_in" /> 
+				<ImageView android:id="@+id/ImageView3_Right" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:src="@drawable/splash4" 
+					style="@anim/fade_in" />
+			</TableRow>
+	</TableLayout>
+
+	<TextView android:id="@+id/TextViewBottomVersion" 
+		android:layout_width="fill_parent" 
+		android:text="@string/VersionInfo" 
+		android:gravity="center_vertical|center_horizontal" 
+		android:lineSpacingExtra="@dimen/line_spacing" 
+		android:textSize="@dimen/version_text" 
+		android:textColor="@color/title_color" 
+		style="@anim/fade_in" android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal"/>
+	<TextView android:id="@+id/TextViewBottomNames" 
+		android:layout_width="fill_parent" 
+		android:text="@string/NamesInfo" 
+		android:gravity="center_vertical|center_horizontal" 
+		android:lineSpacingExtra="@dimen/line_spacing2" 
+		android:textSize="@dimen/version_text" 
+		android:textColor="@color/title_color" 
+		style="@anim/fade_in" android:layout_gravity="center_vertical|center_horizontal" android:layout_height="wrap_content"/>
+</LinearLayout>

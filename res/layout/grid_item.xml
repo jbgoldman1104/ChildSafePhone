@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer = "true">
+        <TextView android:id="@+id/item1"
+        	android:text="row_id"
+        	android:layout_height="fill_parent"
+        	android:layout_width="wrap_content"
+        	android:width="10dip" />
+        <ImageView 
+        	android:id="@+id/item2" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="fill_parent" 
+        	android:width="250dip" 
+        	android:src="@drawable/icon00"/>
+	    <TextView android:id="@+id/item3"
+	        android:text="col_2"
+	        android:layout_height="fill_parent"
+	        android:layout_width="wrap_content"
+	        android:width="60dip" />
+	    <TextView android:id="@+id/item4"
+	        android:text="col_3"
+	        android:layout_height="fill_parent"
+	        android:layout_width="wrap_content"
+	        android:width="215dip" />
+</LinearLayout>

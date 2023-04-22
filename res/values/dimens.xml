@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_title">20pt</dimen>
+    <dimen name="version_text">6pt</dimen>
+    <dimen name="line_spacing">5pt</dimen>
+    <dimen name="title_size">15pt</dimen>
+    <dimen name="line_spacing2">1pt</dimen>
+    <dimen name="password_dimen">12pt</dimen>
+</resources>

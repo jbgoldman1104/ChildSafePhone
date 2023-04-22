@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/star2background" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+    <TextView 
+    	android:id="@+id/textview_parent_settings_title" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/parent_settings_title"
+    	android:textColor="@color/title_color"
+    	android:layout_width="fill_parent"
+    	android:layout_gravity="center_vertical|center_horizontal"  
+    	android:gravity="top|center"
+    	android:textSize="@dimen/title_size" 
+    	android:layout_marginLeft="30px" 
+    	android:layout_marginRight="30px">		
+    </TextView>
+    <ScrollView
+    	android:id="@+id/ScrollView_Parent_Settings" 
+		android:layout_alignParentBottom="true" 
+		android:layout_height="fill_parent" 
+		android:layout_width="fill_parent"
+		android:isScrollContainer = "true">
+		<LinearLayout 
+			android:id="@+id/LinearLayout_Buttons"
+			android:orientation = "vertical" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:gravity="center">
+			<Button 
+				android:id="@+id/Button_Add_Contact" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:text="@string/parent_setting_button_add">
+			</Button>
+			<Button 
+				android:id="@+id/Button_Delete_Contact" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:text="@string/parent_setting_button_delete">
+			</Button>
+			<Button 
+				android:id="@+id/Button_Edit_Contact" 
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content" 
+				android:text="@string/parent_setting_button_editcontact">
+			</Button>
+			
+			<Button 
+				android:id="@+id/Button_View_Contact" 
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content" 
+				android:text="@string/parent_setting_button_viewcontact">
+			</Button>
+			
+			<Button 
+				android:text="@string/parent_setting_button_changepwd" 
+				android:id="@+id/Button_Change_Pwd" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+			</Button>
+			<TextView 
+				android:text="@string/parent_setting_pwd_not_set" 
+				android:id="@+id/Password_condition" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+			</TextView>
+			<Button 
+				android:id="@+id/Button_Help" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:text="@string/parent_setting_button_help">
+			</Button>
+			
+			
+  	  </LinearLayout>
+    </ScrollView>
+</LinearLayout>

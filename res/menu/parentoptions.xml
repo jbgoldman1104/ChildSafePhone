@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+		android:id="@+id/main_item"
+		android:title="@string/menu_item_main" 
+		android:icon="@drawable/main_menu"></item>
+	<item 
+		android:id="@+id/parent_item" 
+		android:title="@string/menu_item_parent" 
+		android:icon="@drawable/settings"></item>
+	<item 
+		android:id="@+id/contact_item" 
+		android:title="@string/menu_item_contact" 
+		android:icon="@drawable/list_contact"></item>
+</menu>

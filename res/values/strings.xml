@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="hello">Hello World, ChildSafeActivity!</string>
+    <string name="app_name">ChildSafePhone</string>
+    
+	<string name="splash_title">Child Safe Phone</string>
+	<string name="VersionInfo">Version 1.0.0\nTeam COA</string>
+	<string name="NamesInfo">Alice Chan, \nChristopher Kwong, \nOvid Durbalau</string>
+	
+	<string name="parent_settings_title">Parent Options</string>
+	<string name="parent_setting_button_add">Add a Contact</string>
+	<string name="parent_setting_button_delete">Delete a Contact</string>
+	<string name="parent_setting_button_editcontact">Edit a Contact</string>
+	<string name="parent_setting_button_viewcontact">View Contact List</string>
+	<string name="parent_setting_button_changepwd">Change Password</string>
+	<string name="parent_setting_button_help">Help</string>
+	
+	<string name="help_title">Help</string>
+	<string name="MainMenuScreenTitle">Main Menu</string>
+	<string name="TextView_PwdConfirm">Confirm Password:</string>
+	<string name="TextView_PwdSet">Password:</string>
+	<string name="contactlist_title">Contact List</string>
+	<string name="parent_settings_pwd_equal">Passwords are equal</string>
+	<string name="parent_settings_pwd_not_equal">Passwords not equal</string>
+	<string name="parent_setting_pwd_not_set">Password not set</string>
+	<string name="parent_setting_pwd_set">Password is set</string>
+	<string name="TextView_PwdLogin">Login:</string>
+	<string name="input_pwd">Input Password</string>
+	<string name="menu_pwd_ok"></string>
+	<string name="menu_pwd_not_ok">incorrect password</string>
+	
+	<string name="choose_delete_contact">Delete Contact</string>
+	<string name="ConfirmDelete">Are you sure you wish to delete contact?</string>
+	<string name="ConfirmDelete_title">Confirm Delete</string>
+	
+	<string name="confirm_call_title">Confirm Call</string>
+	<string name="confirm_call">Are you sure you wish to call contact?</string>
+	
+	<string name="add_contact_title">Add Contact</string>
+	
+	<string name="add_a_contact_title">Enter Contact Information</string>
+	<string name="add_a_contact_name">Name:</string>
+	<string name="add_a_contact_phone">Phone Number (only include numbers, no dashes or spaces):</string>
+	<string name="add_a_contact_icon">Icon:</string>
+	<string name="add_a_contact_browse">browse</string>
+	<string name="add_a_contact_enter">Enter</string>
+	<string name="add_a_contact_cancel">Cancel</string>
+	
+	<string name="edit_contact_title">Edit Contact</string>
+	<string name="edit_a_contact_title">Edit Contact Information</string>
+	<string name="edit_a_contact_name">Name:</string>
+	<string name="edit_a_contact_phone">Phone Number (only include numbers, no dashes or spaces):</string>
+	<string name="edit_a_contact_icon">Icon:</string>
+	<string name="edit_a_contact_browse">browse</string>
+	<string name="edit_a_contact_enter">Enter</string>
+	<string name="edit_a_contact_cancel">Cancel</string>
+	<string name="edit_back_button">Go Back</string>
+	
+	<string name="choose_icon_title">Choose An Icon</string>
+	
+	<string name="menu_item_main">Main Menu</string>
+	<string name="menu_item_parent">Parent Settings</string>
+	<string name="menu_item_contact">Contact List</string>
+</resources>

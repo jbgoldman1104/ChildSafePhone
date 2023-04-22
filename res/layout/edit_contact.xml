@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout android:id="@+id/main"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:background="@drawable/star2background">
+		<TextView 
+    	android:id="@+id/TextViewEditContactsTitle" 
+    	android:text="@string/edit_contact_title"
+    	android:layout_height="wrap_content" 
+    	android:layout_width="fill_parent"
+    	android:layout_gravity="center_vertical|center_horizontal"  
+    	android:gravity="top|center"
+    	android:textSize="@dimen/title_size" 
+    	android:textColor="@color/title_color" />
+		<!-- ListView (grid_items) -->
+		<LinearLayout android:id="@+id/layout"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent">
+			<ListView android:id="@+id/list_view"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent" 
+				android:layout_marginRight="45px" 
+				android:layout_marginLeft="45px" 
+				android:scrollbarStyle="outsideOverlay">
+			</ListView>
+			<Button 
+				android:text="@string/edit_back_button" 
+				android:id="@+id/button_edit_back" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+			</Button>
+		</LinearLayout>
+		
+		
+	</LinearLayout>

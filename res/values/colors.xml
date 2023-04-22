@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_color">#EBEBEB</color>
+
+    <color name="blue">#0000FF</color>
+    <color name="green">#01DF01</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="pwd_color_error">#FF0000</color>
+</resources>
